@@ -38,3 +38,18 @@ body{
     font-weight: 500;
     color: white;
 }
+
+.image-wrapper{
+    width: 100%;
+    padding: 1.5rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cat-image{
+    object-fit: cover;
+    object-position: left;
+    width: 250px;
+    height: 250px;
+}
